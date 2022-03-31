@@ -1,0 +1,23 @@
+body {
+  margin: 100px;
+
+  padding: 0px;
+
+  font-size: 14px;
+  font-family: Verdana;
+}
+.goal {
+  text-align: center;
+  background-color: aqua;
+  padding: 3px;
+  margin: 2px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+  border-radius: 9px;
+  transition: all 0.2s ease-in-out;
+}
+.goal:hover {
+  transform: scale(1.1);
+}
